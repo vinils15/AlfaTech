@@ -308,3 +308,66 @@ table tbody td {
 .linha-par {
     background-color: #fff;
 }
+
+/* ===== SEÇÃO FAQ ===== */
+
+.secao-faq {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.container-faq {
+    padding: 0 20px;
+}
+
+.secao-faq h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #233032;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e0e5ec;
+    padding: 20px 0;
+}
+
+.faq-item summary {
+    font-size: 18px;
+    font-weight: 600;
+    color: #233032;
+    cursor: pointer;
+    list-style: none;
+    padding-right: 30px;
+    position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    color: #2f86d6;
+    font-weight: 400;
+}
+
+.faq-item[open] summary::after {
+    content: '−';
+}
+
+.faq-item[open] summary {
+    color: #2f86d6;
+}
+
+.faq-item p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #555;
+    padding-bottom: 10px;
+}
