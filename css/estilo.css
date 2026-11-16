@@ -151,3 +151,47 @@
     color: #fff;
 }
 
+/* ===== SEÇÃO INFORMAÇÕES ===== */
+
+.secao-informacoes {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.secao-informacoes h2 {
+    width: 900px;
+    font-size: 32px;
+    margin: 0px auto 60px;
+}
+
+.secao-informacoes h2 em {
+    color: #2f86d6;
+    font-style: normal;
+}
+
+.container-informacoes {
+    position: relative;
+    height: 240px;
+}
+
+.container-informacoes article {
+    width: 33%;
+    position: absolute;
+    top: 0;
+}
+
+.card2 {
+    left: 343px;
+}
+
+.card3 {
+    right: 0;
+}
+
+.container-informacoes article img {
+    width: 100px;
+}
+
+.container-informacoes article h3 {
+    margin: 20px;
+}
