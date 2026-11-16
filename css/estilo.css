@@ -371,3 +371,95 @@ table tbody td {
     color: #555;
     padding-bottom: 10px;
 }
+
+
+/* ===== SEGUNDO ANÚNCIO ===== */
+
+.secao-segundo-anuncio {
+    background-color: #2f86d6;
+}
+
+.container-segundo-anuncio {
+    position: relative;
+    padding: 40px 0;
+}
+
+.container-segundo-anuncio h2 {
+    color: #fff;
+    width: 550px;
+}
+
+.container-segundo-anuncio a {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #233032;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-segundo-anuncio a img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.container-segundo-anuncio a span {
+    margin-left: 30px;
+}
+
+
+/* ===== RODAPÉ ===== */
+
+.rodape-logo {
+    width: 320px;
+    position: relative;
+    margin: 70px auto 40px;
+}
+
+.rodape-logo img {
+    width: 80px;
+}
+
+.rodape-logo hgroup {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.rodape-logo h4 {
+    font-size: 32px;
+}
+
+.rodape-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.container-contatos {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-copyright {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f1f3f7;
+}
+
+.container-copyright span {
+    color: #2f86d6;
+}
