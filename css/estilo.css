@@ -195,3 +195,116 @@
 .container-informacoes article h3 {
     margin: 20px;
 }
+
+
+/* ===== SEÇÃO DEPOIMENTOS ===== */
+
+.secao-depoimento {
+    padding: 50px 0 100px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.secao-depoimento h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.cards-depoimento {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-depoimento {
+    background-color: #f1f3f7;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+    text-align: left;
+}
+
+.card-depoimento p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    color: #233032;
+}
+
+.card-depoimento q {
+    font-style: italic;
+}
+
+.card-depoimento cite {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2f86d6;
+    font-style: normal;
+}
+
+
+/* ============================================
+   SEÇÃO PLANOS
+============================================ */
+
+.secao-planos {
+    padding: 100px 0px;
+    background-color: #f1f3f7;
+}
+
+.secao-planos h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 32px;
+}
+
+.secao-planos h2 em {
+    color: #2f86d6;
+    font-style: normal;
+}
+
+table {
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+table thead th h3 {
+    margin-bottom: 20px;
+}
+
+table thead th img {
+    width: 100px;
+    margin: auto;
+}
+
+table thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.linha-impar {
+    background-color: #f6f6f6;
+}
+
+.linha-par {
+    background-color: #fff;
+}
