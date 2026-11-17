@@ -463,3 +463,316 @@ table tbody td {
 .container-copyright span {
     color: #2f86d6;
 }
+
+
+/* ===== RESPONSIVIDADE ===== */
+
+    /* ===== TABLETS ===== */
+
+@media (max-width: 768px) {
+
+    .limitar-secao {
+        width: 90%;
+    }
+
+    /* ===== Cabeçalho ===== */
+    .container-topo {
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .topo-logo {
+        text-align: center;
+    }
+
+    .topo-logo img {
+        width: 65px;
+    }
+
+    .topo-logo hgroup {
+        position: static;
+    }
+
+    .topo-links {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .topo-links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    /* ===== Banner ===== */  
+    .container-banner{
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .container-banner div {
+        width: 100%;
+    }
+
+    .container-banner img {
+        position: static;
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    /* ===== Primeiro anúncio ===== */
+    .container-primeiro-anuncio {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .container-primeiro-anuncio div {
+        width: 100%;
+    }
+
+    .container-primeiro-anuncio a {
+        position: static;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    /* ===== Informações ===== */
+    .secao-informacoes {
+        padding: 60px 0;
+    }
+
+    .secao-informacoes h2 {
+        width: 90%;
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    .container-informacoes {
+        height: auto;
+        text-align: center;
+    }
+
+    .container-informacoes article {
+        position: static;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card2,
+    .card3 {
+        left: auto;
+        right: auto;
+    }
+
+    /* ===== Depoimentos ===== */
+    .cards-depoimento {
+        display: block;
+    }
+
+    .card-depoimento {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    /* ===== Planos ===== */
+    .secao-planos {
+        padding: 60px 10px;
+    }
+
+    .secao-planos h2 {
+        font-size: 26px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table thead th {
+        padding: 10px 5px;
+    }
+
+    table thead th img {
+        width: 65px;
+    }
+
+    table thead th h3 {
+        font-size: 14px;
+    }
+
+    table thead th p {
+        font-size: 11px;
+    }
+
+    table tbody td {
+        width: 25%;
+        padding: 8px 3px;
+        font-size: 12px;
+    }
+
+    /* ===== Perguntas frequentes =====*/
+    .secao-faq {
+        padding: 60px 0;
+    }
+
+    .container-faq {
+        width: 90%;
+    }
+
+    /* ===== Segundo anúncio ===== */
+    .container-segundo-anuncio {
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .container-segundo-anuncio h2 {
+        width: 100%;
+    }
+
+    .container-segundo-anuncio a {
+        position: static;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    /* ===== Rodapé ===== */
+    .rodape-logo {
+        text-align: center;
+    }
+
+    .rodape-logo img {
+        width: 65px;
+    }
+
+    .rodape-logo hgroup {
+        position: static;
+    }
+
+    .container-contatos {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    .container-copyright {
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+}
+
+ 
+    /* ===== CELULARES ===== */
+@media (max-width: 480px) {
+
+    .limitar-secao {
+        width: 92%;
+    }
+
+    /* Cabeçalho */
+    .topo-logo img {
+        width: 55px;
+    }
+
+    .topo-logo h1 {
+        font-size: 25px;
+    }
+
+    .topo-logo p {
+        font-size: 12px;
+    }
+
+    .topo-links a {
+        font-size: 11px;
+        padding: 3px;
+    }
+
+    /* ===== Banner ===== */
+    .container-banner {
+        padding: 45px 0;
+    }
+
+    .container-banner div p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .container-banner div h2 {
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    .container-banner img {
+        width: 90%;
+    }
+
+
+    /* ===== Anúncios ===== */
+    .container-primeiro-anuncio h2,
+    .container-segundo-anuncio h2 {
+        font-size: 19px;
+    }
+
+    .container-primeiro-anuncio a,
+    .container-segundo-anuncio a {
+        width: 90%;
+        font-size: 13px;
+        padding: 15px 5px;
+    }
+
+    /* ===== Títulos das seções ===== */
+    .secao-informacoes h2,
+    .secao-depoimento h2,
+    .secao-planos h2,
+    .secao-faq h2 {
+        font-size: 22px;
+        width: 92%;
+    }
+
+    /* ===== Depoimentos ===== */
+    .card-depoimento {
+        padding: 20px;
+    }
+
+    /* ===== Planos ===== */
+    table thead th h3 {
+        font-size: 11px;
+    }
+
+    table thead th img {
+        width: 45px;
+    }
+
+    table thead th p {
+        font-size: 9px;
+    }
+
+    table tbody td {
+        font-size: 10px;
+        padding: 6px 2px;
+    }
+    
+    /* ===== Perguntas frequentes ===== */
+    .faq-item summary {
+        font-size: 14px;
+    }
+
+    .faq-item p {
+        font-size: 13px;
+    }
+
+    /* ===== Rodapé ===== */
+    .rodape-logo h4 {
+        font-size: 26px;
+    }
+
+    .rodape-logo p {
+        font-size: 12px;
+    }
+
+    .container-contatos {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .container-copyright {
+        font-size: 11px;
+    }
+}
