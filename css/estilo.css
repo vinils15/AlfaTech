@@ -532,9 +532,26 @@ table tbody td {
 
     .container-primeiro-anuncio a {
         position: static;
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
         margin-top: 20px;
     }
+    
+.container-primeiro-anuncio a img,
+    .container-segundo-anuncio a img {
+        position: static;
+        width: 20px;
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    .container-primeiro-anuncio a span,
+    .container-segundo-anuncio a span {
+        margin: 0;
+    }
+
 
     /* ===== Informações ===== */
     .secao-informacoes {
