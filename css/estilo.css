@@ -729,10 +729,32 @@ table tbody td {
 
     .container-primeiro-anuncio a,
     .container-segundo-anuncio a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
         width: 90%;
+        margin: 20px auto 0;
+        padding: 15px 10px;
         font-size: 13px;
-        padding: 15px 5px;
+        box-sizing: border-box;
     }
+
+.container-primeiro-anuncio a img,
+    .container-segundo-anuncio a img {
+        position: static;
+        display: block;
+        width: 20px;
+        height: auto;
+        margin: 0;
+        flex: 0 0 20px;
+    }
+
+    .container-primeiro-anuncio a span,
+    .container-segundo-anuncio a span {
+        margin: 0;
+    }
+
 
     /* ===== Títulos das seções ===== */
     .secao-informacoes h2,
