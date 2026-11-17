@@ -111,3 +111,58 @@ table tbody td {
   background-color: #2f86d6;
   border-radius: 100px;
 }
+
+/* ===== SEÇÃO RODAPÉ ===== */
+
+.fundo-azul{
+    background-color: #2f86d6;
+    padding: 10px 0;
+}
+
+.rodape-logo {
+    width: 320px;
+    position: relative;
+    margin: 70px auto 40px;;
+}
+
+.rodape-logo img {
+    width: 80px;
+}
+
+.rodape-logo hgroup {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+
+.rodape-logo h4 {
+    font-size: 40px;
+}
+
+.rodape-logo p {
+    color: #fff;
+    font-weight: 600
+}
+
+
+
+.paragrafo-rodape {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0 70px;
+}
+
+.container-desenvolvedor {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+.container-desenvolvedor span {
+  color: #2f86d6;
+}
