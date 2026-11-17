@@ -57,3 +57,57 @@ header{
     font-weight: 600;
     color: #fff;
 }
+
+
+/* ===== SEÇÃO PRINCIPAL */
+
+.conteudo-principal {
+  padding: 100px 0px;
+}
+
+.conteudo-principal table{
+  margin: auto;
+}
+
+.celula-escondida {
+  visibility: hidden;
+}
+
+.celula-cabeçalho {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+  background-color: #f1f3f7;
+}
+
+.celula-cabeçalho p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a8a4a4;
+}
+
+.celula-cabeçalho h2 {
+  font-size: 36px;
+}
+
+table tbody td {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+  background-color: #f1f3f7;
+  font-weight: 500;
+  text-align: left;
+}
+
+.marcador-azul {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-color: #2f86d6;
+  border-radius: 100px;
+}
