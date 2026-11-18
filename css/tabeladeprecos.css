@@ -164,3 +164,216 @@ table tbody td {
 .container-desenvolvedor span {
   color: #2f86d6;
 }
+
+
+/* ===== RESPONSIVIDADE ===== */
+
+  
+  /* ===== TABLETS ===== */
+@media (max-width: 768px) {
+
+    .limitar-secao {
+        width: 90%;
+    }
+
+  /* ===== Cabeçalho ===== */
+    .container-topo {
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .topo-logo {
+        text-align: center;
+    }
+
+    .topo-logo img {
+        width: 65px;
+    }
+
+    .topo-logo hgroup {
+        position: static;
+    }
+
+    .topo-links {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .topo-links a {
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    /* ===== Tabela de preços ===== */
+    .conteudo-principal {
+        padding: 60px 10px;
+    }
+
+    .conteudo-principal table {
+        width: 90%;
+    }
+
+    .celula-escondida,
+    .primeira-celula {
+        width: 210px;
+    }
+
+    .celula-cabeçalho,
+    table tbody td {
+        width: 160px;
+    }
+
+    .celula-cabeçalho {
+        padding: 15px 10px;
+    }
+
+    .celula-cabeçalho p {
+        font-size: 12px;
+    }
+
+    .celula-cabeçalho h2 {
+        font-size: 30px;
+    }
+
+    table tbody td {
+        padding: 14px 10px;
+        font-size: 12px;
+    }
+
+    .marcador-azul {
+        width: 17px;
+        height: 17px;
+    }
+
+  
+    /* ===== Rodapé ===== */
+    .rodape-logo {
+        width: 100%;
+        text-align: center;
+        margin: 45px auto 30px;
+    }
+
+    .rodape-logo img {
+        width: 65px;
+    }
+
+    .rodape-logo hgroup {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .rodape-logo h4 {
+        font-size: 32px;
+    }
+
+    .rodape-logo p {
+        font-size: 14px;
+    }
+
+    .paragrafo-rodape {
+        font-size: 14px;
+        margin: 20px 15px 45px;
+    }
+
+    .container-desenvolvedor {
+        font-size: 14px;
+        padding: 18px 10px;
+    }
+}
+
+
+    /* ===== CELULARES ===== */
+@media (max-width: 480px) {
+
+    .limitar-secao {
+        width: 92%;
+    }
+
+    /* ===== Cabeçalho ===== */
+    .topo-logo img {
+        width: 55px;
+    }
+
+    .topo-logo h1 {
+        font-size: 25px;
+    }
+
+    .topo-logo p {
+        font-size: 12px;
+    }
+
+    .topo-links a {
+        font-size: 11px;
+        padding: 3px;
+    }
+
+    /* ===== Tabela de preços ===== */
+    .conteudo-principal {
+        padding: 45px 8px;
+    }
+
+    .conteudo-principal table {
+        width: 90%;
+    }
+
+    .celula-escondida,
+    .primeira-celula {
+        width: 190px;
+    }
+
+    .celula-cabeçalho,
+    table tbody td {
+        width: 147.5px;
+    }
+
+    .celula-cabeçalho {
+        padding: 12px 6px;
+    }
+
+    .celula-cabeçalho p {
+        font-size: 10px;
+    }
+
+    .celula-cabeçalho h2 {
+        font-size: 24px;
+    }
+
+    table tbody td {
+        padding: 11px 6px;
+        font-size: 10px;
+    }
+
+    .marcador-azul {
+        width: 15px;
+        height: 15px;
+    }
+
+      /* ===== Rodapé ===== */
+    .rodape-logo {
+        margin: 35px auto 25px;
+    }
+
+    .rodape-logo img {
+        width: 55px;
+    }
+
+    .rodape-logo h4 {
+        font-size: 26px;
+    }
+
+    .rodape-logo p {
+        font-size: 12px;
+    }
+
+    .paragrafo-rodape {
+        font-size: 11px;
+        line-height: 22px;
+        margin: 15px 12px 35px;
+    }
+
+    .container-desenvolvedor {
+        font-size: 12px;
+        padding: 15px 10px;
+    }
+  }
